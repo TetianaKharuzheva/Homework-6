@@ -24,22 +24,22 @@ public class AppTest {
         assertEquals( -4 ,calculator.calculateSumOfTwoIntegerVaiues(-2,-2));
     }
 
-    @Test
-    public void checkTwoValuesNotEquals(){
-        assertNotEquals( 3 , 4);
-    }
+    //@Test
+    //public void checkTwoValuesNotEquals(){
+       // assertNotEquals( 3 , 4);
+    //}
 
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( 3 == 3 );
-    }
+    //@Test
+   // public void shouldAnswerWithTrue()
+    //{
+       // assertTrue( 3 == 3 );
+    //}
 
-    @Test
-    public void shouldAnswerWithFalse()
-    {
-        assertFalse( 4 < 2 );
-    }
+   // @Test
+    //public void shouldAnswerWithFalse()
+    //{
+     //   assertFalse( 4 < 2 );
+    //}
 
 
 

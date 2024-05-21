@@ -10,12 +10,18 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AppTest {
 
     @Test
-    public void checkTwoValuesEquals(){
-
+    public void checkTwoPosiyivValuesEquals(){
+        Calculator calculator = new Calculator();
         //
         //
-
-        assertEquals( 3 , 3);
+        assertEquals( 4 ,calculator.calculateSumOfTwoIntegerVaiues(2,2));
+    }
+    @Test
+    public void checkTwoNegativValuesEquals(){
+        Calculator calculator = new Calculator();
+        //
+        //
+        assertEquals( -4 ,calculator.calculateSumOfTwoIntegerVaiues(-2,-2));
     }
 
     @Test
@@ -34,6 +40,9 @@ public class AppTest {
     {
         assertFalse( 4 < 2 );
     }
+
+
+
 
 
 }

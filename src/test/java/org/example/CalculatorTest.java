@@ -33,8 +33,34 @@ public class CalculatorTest {
 
         assertEquals( -3 , actualValue);
 
+    }
+    @Test
+    //method subtraction Homework_6
 
+    public void subtractionOfTwoPositiveValues(){
+        //precondition: creating instance of calculator class
+        Calculator myCalculator= new Calculator();
+        // call subtractionTwoIntengerVaiues method from calculator and provide values
+        int actualValue = myCalculator.subtractionTwoIntengerVaiues(10,5);
 
-
+        assertEquals( 5 , actualValue);
+    }
+    @Test
+    public void subtractionOfTwoEqualsValues(){
+        Calculator myCalculator= new Calculator();
+        int actualValue = myCalculator.subtractionTwoIntengerVaiues(5,5);
+        assertEquals( 0 , actualValue);
+    }
+    @Test
+    public void subtractionOfBiggerAndZeroValues(){
+        Calculator myCalculator= new Calculator();
+        int actualValue = myCalculator.subtractionTwoIntengerVaiues(1000,0);
+        assertEquals( 1000 , actualValue);
+    }
+    @Test
+    public void subtractionOfZeroAndBiggerValues(){
+        Calculator myCalculator= new Calculator();
+        int actualValue = myCalculator.subtractionTwoIntengerVaiues(0,1000);
+        assertEquals( -1000 , actualValue);
     }
 }

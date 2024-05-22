@@ -13,10 +13,14 @@ public class Calculator {
        //return Math.abs(result);
        return result;
    }
-    public double sabTwoVaiues(double firstInputValue, double secondInputValue){
-        double result = firstInputValue+secondInputValue;
-        //absolute value
-        //return Math.abs(result);
+
+   // Homework_6
+    public int subtractionTwoIntengerVaiues(int firstInputValue, int secondInputValue){
+        int result = firstInputValue-secondInputValue;
+        return result;
+    }
+    public boolean FirstValueBiggerThenSecond(int firstInputValue, int secondInputValue){
+        boolean result = firstInputValue>secondInputValue;
         return result;
     }
 

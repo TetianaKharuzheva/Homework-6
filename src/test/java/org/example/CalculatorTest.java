@@ -2,8 +2,7 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
     @Test
@@ -62,5 +61,26 @@ public class CalculatorTest {
         Calculator myCalculator= new Calculator();
         int actualValue = myCalculator.subtractionTwoIntengerVaiues(0,1000);
         assertEquals( -1000 , actualValue);
+    }
+    @Test
+    // method is More
+    public void firstValuesMoreSecondValues(){
+        Calculator myCalculator= new Calculator();
+        boolean actualValue = myCalculator.isMore(25,5);
+        assertTrue(actualValue);
+    }
+    @Test
+    // method is More
+    public void firstValuesIsEqualSecondValues(){
+        Calculator myCalculator= new Calculator();
+        boolean actualValue = myCalculator.isMore(25,25);
+        assertTrue(actualValue);
+    }
+    @Test
+
+    public void secondValuesIsMoreFirstValue(){
+        Calculator myCalculator= new Calculator();
+        boolean actualValue = myCalculator.isMore(5,25);
+        assertTrue(actualValue);
     }
 }

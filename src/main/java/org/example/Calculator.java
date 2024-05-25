@@ -19,9 +19,10 @@ public class Calculator {
         int result = firstInputValue-secondInputValue;
         return result;
     }
-    public boolean FirstValueBiggerThenSecond(int firstInputValue, int secondInputValue){
-        boolean result = firstInputValue>secondInputValue;
-        return result;
+    // add method firstValueIsMoreOfSecond
+    public boolean isMore(int firstInputValue, int secondInputValue){
+        return firstInputValue > secondInputValue;
+
     }
 
 

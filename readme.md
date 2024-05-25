@@ -1,8 +1,9 @@
 
+**Checklist for calculator**
 
-№	Chack name	Status
+| №  |       Chack name	                   |Status|
 
-1	Subtraction two positive values	Pass
+1   Subtraction two positive values	Pass
 
 2	Subtraction two equals values	Pass
 

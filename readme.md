@@ -10,8 +10,8 @@
 
 4	Subtraction zero and bigger value	Pass
 
-5	First value is more then second value (must be -True	Pass
+5	First value is more than second value 	Pass
 
-6	First value is equal second value(must to - False)	Pass
+6	First value is equal second value	Pass
 
-7	Second value is more then first value(must to - False)	Pass
+7	Second value is more than first value	Pass

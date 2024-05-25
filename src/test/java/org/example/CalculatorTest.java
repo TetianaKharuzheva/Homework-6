@@ -70,17 +70,16 @@ public class CalculatorTest {
         assertTrue(actualValue);
     }
     @Test
-    // method is More
     public void firstValuesIsEqualSecondValues(){
         Calculator myCalculator= new Calculator();
         boolean actualValue = myCalculator.isMore(25,25);
-        assertTrue(actualValue);
+        assertFalse(actualValue);
     }
     @Test
 
     public void secondValuesIsMoreFirstValue(){
         Calculator myCalculator= new Calculator();
         boolean actualValue = myCalculator.isMore(5,25);
-        assertTrue(actualValue);
+        assertFalse(actualValue);
     }
 }
